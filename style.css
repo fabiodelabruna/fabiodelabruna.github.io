@@ -1,123 +1,123 @@
-html,body {
-    height: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.8;
-    color: #596981
+@charset "utf-8";
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #596981
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 a {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 a, a:active, a:visited {
-    color: #96A3B6;
-    text-decoration: none;
-    transition: color 250ms linear
+  color: #96A3B6;
+  text-decoration: none;
+  transition: color 250ms linear
 }
 
 a:hover {
-    color: #4E535A;
-    transition: color 100ms linear
+  color: #4E535A;
+  transition: color 100ms linear
 }
 
 .cover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
 }
 
 .cover-content {
-    padding: 55px;
-    text-align: center;
+  padding: 55px;
+  text-align: center;
 }
 
 .cover-content:first-of-type {
-    flex-basis: 420px;
-    align-self: center;
+  flex-basis: 420px;
+  align-self: center;
 }
 
 .cover-heading {
-    width: 320px;
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: 900;
-    text-transform: uppercase;
+  text-align: center;
+}
+
+.cover-heading img {
+  border-radius: 50%;
 }
 
 .cover-heading > h1 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 .dev-title {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .cover-content hr {
-    width: 65%;
-    border-top-color: initial;
-    border-right-color: initial;
-    border-left-color: initial;
-    margin: 55px auto;
-    border-width: 0px 0px 1px;
-    border-style: none none solid;
-    border-image: initial;
-    border-bottom: 1px solid #ddd;
+  width: 65%;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  margin: 55px auto;
+  border-width: 0px 0px 1px;
+  border-style: none none solid;
+  border-image: initial;
+  border-bottom: 1px solid #ddd;
 }
 
 .social {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center
 }
 
 .social li {
-    display: inline-block;
-    margin: 10px
+  display: inline-block;
+  margin: 10px
 }
 
 .social li a {
-    border: 0 none
+  border: 0 none
 }
 
 .social li svg {
-    fill: #4E535A
+  fill: #4E535A
 }
 
 .effect {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0.55;
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-    background-size: 150% auto;
-    background-color: #FBFBFD;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cpath d='M0 100 V 90 L 10 100 Z' fill='%2523C0C4CC' fill-opacity='0.03'%3E%3C/path%3E%3Cpath d='M0 90 V 80 L 10 90 Z' fill='%2523C0C4CC' fill-opacity='0.045'%3E%3C/path%3E%3Cpath d='M10 100 V 90 L 20 100 Z' fill='%2523C0C4CC' fill-opacity='0.025'%3E%3C/path%3E%3Cpath d='M0 90 H 10 V 100 Z' fill='%2523ffffff' fill-opacity='0.07'%3E%3C/path%3E%3C/svg%3E")
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.55;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 150% auto;
+  background-color: #FBFBFD;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cpath d='M0 100 V 90 L 10 100 Z' fill='%2523C0C4CC' fill-opacity='0.03'%3E%3C/path%3E%3Cpath d='M0 90 V 80 L 10 90 Z' fill='%2523C0C4CC' fill-opacity='0.045'%3E%3C/path%3E%3Cpath d='M10 100 V 90 L 20 100 Z' fill='%2523C0C4CC' fill-opacity='0.025'%3E%3C/path%3E%3Cpath d='M0 90 H 10 V 100 Z' fill='%2523ffffff' fill-opacity='0.07'%3E%3C/path%3E%3C/svg%3E")
 }
